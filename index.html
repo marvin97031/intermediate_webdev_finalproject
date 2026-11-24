@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO: Meta description -->
+    <meta name="description" content="Quickly and accurately calculate interest rates on loans with our easy-to-use interest rate calculator. Determine the interest you'll pay and make informed financial decisions. Try our free online calculator now.">
+    
+    <!-- SEO: Title -->
+    <title>Interest Rate Calculator - Quickly Calculate Interest on Loans</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- SEO: H1 Tag -->
+    <h1>Interest Rate Calculator</h1>
+    
+    <form id="interest-form">
+        <label for="principal">Principal Amount:</label>
+        <input type="number" id="principal" value="1000" required><br><br>
+        <label for="rate">Interest Rate (%):</label>
+        <input type="number" id="rate" value="5" required><br><br>
+        <label for="time">Time (years):</label>
+        <input type="number" id="time" value="1" required><br><br>
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <p id="result"></p>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
